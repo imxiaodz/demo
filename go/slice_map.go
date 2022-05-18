@@ -11,5 +11,4 @@ func main() {
 	for index, value := range slice {
 		fmt.Printf("inde : %v , value : %v\n", index, value)
 	}
-
 }
