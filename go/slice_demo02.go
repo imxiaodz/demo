@@ -19,4 +19,5 @@ func main() {
 	*p = 100
 	fmt.Println(slice) //100,3,4
 	fmt.Println(arr)   //1,2,100,4, 5
+	fmt.Println(&arr[2])
 }
